@@ -1,0 +1,24 @@
+/* manifest.json
+ * Author: Neil Dunn
+ * ID: 2790816
+ * Project: EECS 448 Calculator
+ * Description: All this does is define the name of the app, the version, scrips to use, and icons to use when
+ *              configuring the chrome app.
+ */
+
+{
+  "name" : "EECS 448 Calculator",
+  "description" : "EECS 448 Project 3",
+  "version" : "0.1",
+  "manifest_version" : 2,
+  "app":
+        {
+            "background" :
+            {
+              "scripts": ["popOut.js"]
+            }
+        },
+  "icons" : {"16": "calculator-16.png", "128": "calculator-128.png"}
+
+
+}
